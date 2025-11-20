@@ -1,0 +1,10 @@
+default:
+  iac:
+    enabled: true
+    scan:
+      exitConditions:
+        enabled: true
+        attribute: severity
+        value: critical
+        operator: '>'
+        threshold: 0
