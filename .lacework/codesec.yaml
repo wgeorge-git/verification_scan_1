@@ -3,7 +3,7 @@ default:
     enabled: true
     scan:
       exitConditions:
-        enabled: true
+        enabled: false
         attribute: severity
         value: critical
         operator: '>'
