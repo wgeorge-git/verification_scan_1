@@ -6,5 +6,5 @@ default:
         enabled: false
         attribute: severity
         value: critical
-        operator: '>'
-        threshold: 0
+        operator: '<'
+        threshold: 2
